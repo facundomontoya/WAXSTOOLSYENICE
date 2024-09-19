@@ -1,0 +1,209 @@
+$colorheader:gold;
+$colortitulos:red;
+$colorfondo: rgb(10, 10, 10);
+$colortextotitulos1: black;
+$colortextotitulos2: white;
+$fontfamily1: "New Amsterdam", sans-serif;
+$fontfamily2: 'roboto', sans-serif; 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    background-color: $colorfondo;
+    color: $colortextotitulos2;
+}
+
+header{
+    
+    background-color: $colorheader;
+    font-family: $fontfamily1;
+    
+    h1{
+        text-align: center;
+        color:$colortextotitulos1 ;
+        font-size: xx-large;
+    }
+    h2{
+        text-align: center;
+        color:$colortextotitulos1 ;
+    }    
+        nav{
+            font-family: $fontfamily1;
+            
+        }
+}
+
+h3{
+    text-align: center;
+    font-size: xx-large;
+    font-family: $fontfamily1;    
+    background-color: $colortitulos;
+    color: $colortextotitulos2;
+    
+}
+.footdisc{
+    background-color: $colorfondo ;
+    color: $colortextotitulos2 ;
+    font-family: $fontfamily2;
+        .card-header{
+        font-family: $fontfamily1;
+        font-size: 1.25em;
+        width: 100%;
+        }
+        .card-footer{
+            font-family: $fontfamily1;
+            font-size: 1.25em;
+            width: 100%;
+        }
+
+
+}
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid $colortextotitulos1;
+    box-shadow: 2px 2px 10px $colortextotitulos1; 
+    color: $colortextotitulos2;
+    background-color: $colorheader;
+        
+}
+
+button:hover{
+    background-color: rgb(155, 135, 21);
+}
+
+
+.card{
+    display: flex;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column ;
+    padding: 50px;
+    margin: 12px;
+   
+}
+
+.cardinicio{
+    max-width: 1400px;
+    margin: auto;
+}
+
+/*.cardinicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+*/
+
+.conoce{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column ;
+  
+    
+
+}
+
+.tituloseccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column ;
+    
+
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.lotebanner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.banner {
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .banner .banner ul {
+    list-style: none;
+  }
+  .banner .banner ul .banner ul li {
+    margin: 15px;
+    font-weight: bold;
+  }
+  
+  .banner .boton {
+    background: gold;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    font-family: "New Amsterdam", sans-serif;
+    cursor: pointer;
+  }
+
+  .lotebanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  iframe{
+    height: 300px;
+    width: 300px;
+    align-items: center center;
+    
+    justify-content: center;
+  }
+
+  
